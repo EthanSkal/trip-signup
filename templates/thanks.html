@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Thank you{% endblock %}
+{% block content %}
+<div class="card card-body text-center">
+  <h1 class="h3">Thank you!</h1>
+  <p class="mb-3">We've recorded your interest in the trip and will be in touch.</p>
+  <a href="{{ url_for('signup') }}" class="btn btn-outline-primary">Back to form</a>
+</div>
+{% endblock %}
